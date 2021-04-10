@@ -1,0 +1,43 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: grey;
+  padding: 200px;
+
+}
+label:first-child {
+  margin-bottom: 15px;
+}
+.inputMask {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.inputMask:focus {
+  outline: none;
+}
+
+.inputMask::selection {
+  background-color: #7733ff36;
+}
+
+.comment {
+  margin-left: 10px;
+}
+
+.example-label {
+  margin-right: 10px;
+  font-size: 20px;
+  align-self: flex-end;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
